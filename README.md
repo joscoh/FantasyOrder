@@ -7,7 +7,8 @@ This contains the code I used to randomly create our draft order (posted here fo
 2. Each person is assigned a random number from 6-10 with no overlap. These correspond to positions 6-10 in the draft.
 3. Each player flips a coin. If the coin is heads, their team 1 gets their chosen pick from spots 1-5 and their team 2 gets their chosen pick from spots 6-10. If the coin is tails, the opposite happens.
 
-If you want, you can run the code yourself with the command `python3 FantasyOrder.py` in a terminal. If you run it multiple times, you will see that it is randomized.
+If you want, you can run the code yourself with the command `python3 FantasyOrder.py` in a terminal. It prints the output, as well as printing to a file draft.txt.
+If you run it multiple times, you will see that it is randomized.
 
 After testing the code, I ran it once to generate a single permutation, and posted the results in the chat.
 
